@@ -12,6 +12,7 @@ int main(void)
 	{
 		if (lower == 'e' || lower == 'q')
 		continue;
+
 		putchar(lower);		
 	}
 
