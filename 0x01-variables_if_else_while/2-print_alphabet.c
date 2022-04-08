@@ -1,0 +1,14 @@
+#!/bin/bash
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	int letters;
+	for (letters = 'a'; letters <= 'z'; letters++)
+		putchar(letters);
+		putchar('\n');
+	return (0);
+}
