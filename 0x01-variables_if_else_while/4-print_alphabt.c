@@ -13,7 +13,8 @@ int main(void)
 		if (lower == 'e' || lower == 'q')
 		continue;
 
-		putchar(lower);		
+		putchar(lower);
+
 	}
 
 	putchar('\n');
