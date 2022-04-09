@@ -4,7 +4,7 @@
  *
  * Return: Always 0 (Success)
  */
-itnt main(void)
+int main(void)
 {
 	char lower;
 
