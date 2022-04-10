@@ -10,7 +10,7 @@ int main(void)
 
 	for (comb1 = 0; comb1 <= 98; comb1++)
 	{
-		for (comb2 = 0; comb2 <= 99; comb2++)
+		for (comb2 = comb1 + 1; comb2 <= 99; comb2++)
 		{
 			putchar((comb1 / 10) + '0');
 			putchar((comb1 % 10) + '0');
