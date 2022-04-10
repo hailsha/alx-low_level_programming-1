@@ -19,7 +19,6 @@ int main(void)
 				putchar(thousands + '0');
 				putchar(tens + '0');
 				putchar(ones + '0');
-				
 				if (thousands < 7)
 				{
 					putchar(',');
