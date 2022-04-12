@@ -1,5 +1,6 @@
 #include <unistd.h>
 /**
- * This is my set of prototypes
+ * _putchar
+ *
  */
 int _putchar(char c);
